@@ -1,8 +1,8 @@
-AirJodan - Site
+<b>AirJodan - Site</b>
 
-Autor: Gabriel Vieira
-Versão: 0.1
-Feito em: HTML e CSS.
+<b>Autor: Gabriel Vieira</b>
+<b>Versão: 0.1</b>
+<b>Feito em: HTML e CSS.</b>
 
 Site simples, para treinar conhecimento e estilização.
 
