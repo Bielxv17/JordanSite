@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+/* configuração de suavização do scroll*/
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /*Foto de fundo do corpo*/
+body {
+    background-image: url(fotos/fundo.jpeg);
+}
+
+
+/* configuração de largura e altura */
+.containerg {
+    width: 100%;
+    height: 1070px;
+}
+/*configuração de largura e altura*/
+.container1 {
+    position: absolute;
+    width: 50%;
+    height: 1070px;
+
+}
+/* configuração para deixar o texto fixado na tela, cor e posicionamento */
+.container1 h2 {
+    position: fixed;
+    color: #fff;
+    top: 20px;
+    left: 100px;
+}
+
+/* configuração da cor, posicionamento e tamanho de fonte*/
+.container1 h1 {
+    position: absolute;
+    color: #fff;
+    top: 230px;
+    left: 100px;
+    font-size: 120px;
+}
+
+/* configuração de tamanho da tela, e deixar ela ao lado da outra div */
+.container2 {
+    float: right;
+    width: 50%;
+    height: 1070px;
+
+}
+
+/* configuração de posicionamento da imagem 1 */
+.jordan img {
+    position: absolute;
+    top: 260px;
+}
+
+/* configuração do botão, posicionamento, tamanho e cor */
+.buttom {
+    position: absolute;
+    width: 300px;
+    height: 75px;
+    left: 100px;
+    top: 780px;    
+    background: rgb(35, 17, 138);
+    border-radius: 30px;
+}
+
+/* configuração do link ao clicar, posicionamento e tamanho */
+.buttom a {
+    position: absolute;
+    top: 13px;
+    left: 50px;
+    font-size: 35px;
+    text-decoration: none;
+    color: #000;
+    height: 100%;
+    width: 100%;
+
+}
+
+/* configuração de ao passar o mouse */
+
+.buttom a:hover {
+    opacity: 0.7;
+}
+
+/* configuração de tamanho e largura */
+.containerbaixo {
+    width: 100%;
+    height: 1000px;
+}
+
+/* configuração de altura e largura */
+.jordan2 {
+    float: right;
+    width: 50%;
+    height: 1000px;
+    
+}
+/* configuração de altura e largura */
+.containerbaixo img {
+    position: absolute;
+    top: 1200px;
+    left: 1100px;
+}
+
+/* configuração de altura e largura */
+.texto {
+    position: absolute;
+    width: 50%;
+    height: 1000px;
+
+}
+
+/* configuração de posicionamento, cor, espaçamento de linhas e tamanho de fonte */
+.texto h1 {
+    position: absolute;
+    color: rgb(35, 17, 138);
+    font-size: 80px;
+    line-height: 80px;
+    top: 50px;
+    left: 100px;
+}
+
+/* configuração de posicionamento e cor */
+.texto h3 {
+    position: absolute;
+    top: 280px;
+    left: 100px;
+    color: #fff;
+}
+
+/* configuração de altura, largura, cor e arredondamento */
+.buttom2 {
+    position: absolute;
+    width: 300px;
+    height: 75px;
+    left: 100px;
+    top: 500px;    
+    background: rgb(35, 17, 138);
+    border-radius: 30px;
+}
+
+/* configuração de posicionamento, tamanho de fonte, remoção da decoração do texto, cor e tamanho */
+.buttom2 a {
+    position: absolute;
+    left: 60px;
+    top: 10px;
+    font-size: 35px;
+    text-decoration: none;
+    color: #000;
+    height: 100%;
+    width: 100%;
+}
+
+/* configuração de ao passar o mouse em cima */
+.buttom2 a:hover {
+    opacity: 0.7;
+}
